@@ -318,3 +318,5 @@ tailwind.output.css
 .angular/cache/16.2.0/angular-webpack/39bbb5d6d905af6c03e842f0e3b6deaa0ed3e9f5/2.pack
 .angular/cache/16.2.0/angular-webpack/39bbb5d6d905af6c03e842f0e3b6deaa0ed3e9f5/1.pack
 .angular/cache/16.2.0/angular-webpack/39bbb5d6d905af6c03e842f0e3b6deaa0ed3e9f5/0.pack
+*.pack
+*.json
