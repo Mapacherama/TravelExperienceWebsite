@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { RouterModule, Routes } from '@angular/router';
 import { TipspageComponent } from './tipspage/tipspage.component';
 
-
+const routes: Routes = [
+  { path: '', component: TipspageComponent }
+];
 
 @NgModule({
-  declarations: [
-    TipspageComponent
-  ],
-  imports: [
-    CommonModule
-  ]
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
 })
-export class TipsModule { }
+export class TipsRoutingModule { }

@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { MystorypageComponent } from '../lifstory/mystorypage/mystorypage.component';
+import { RouterModule, Routes } from '@angular/router';
+import { MystorypageComponent } from './mystorypage/mystorypage.component';
 
-
+const routes: Routes = [
+  { path: '', component: MystorypageComponent }
+];
 
 @NgModule({
-  declarations: [
-    MystorypageComponent
-  ],
-  imports: [
-    CommonModule
-  ]
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
 })
-export class LifestoryModule { }
+export class AboutRoutingModule { }
