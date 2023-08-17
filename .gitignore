@@ -1,0 +1,50 @@
+# Node and npm
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Angular build artifacts
+dist/
+out-tsc/
+ng-out-tsc/
+
+# IDEs and editors
+*.project
+*.classpath
+*.c9/
+*.idea/
+*.vscode/
+*.swp
+*.swo
+*.swn
+*.log
+*.bak
+*.orig
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# TailwindCSS
+tailwind.output.css
+
+# PrimeNG
+# (PrimeNG doesn't generate specific files that need to be ignored, but if you have custom themes or configurations, you might add them here)
+
+# Temporary files
+*.tmp
+*.temp
+*.tscache
+
+# Logs
+*.log
+
+# Environment configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Other
+*.ngrok
