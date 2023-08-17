@@ -320,3 +320,4 @@ tailwind.output.css
 .angular/cache/16.2.0/angular-webpack/39bbb5d6d905af6c03e842f0e3b6deaa0ed3e9f5/0.pack
 *.pack
 *.json
+.angular/cache/16.2.0/angular-webpack/4f9acfc93f78b6cfb9f5f1f2ae7bebcb8cbaea12/index.pack.old
