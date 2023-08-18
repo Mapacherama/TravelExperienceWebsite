@@ -29,6 +29,10 @@ export class HeaderComponent {
         routerLink: '/tips'
       },
       {
+        label: 'Pictures',
+        routerLink: '/pictures'
+      },
+      {
         label: 'Contact Me',
         routerLink: '/contact'
       }
