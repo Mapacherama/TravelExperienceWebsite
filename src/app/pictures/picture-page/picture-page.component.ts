@@ -1,15 +1,32 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PhotoService } from 'src/app/services/photo.service';
 
 @Component({
   selector: 'app-picture-page',
   templateUrl: './picture-page.component.html',
   styleUrls: ['./picture-page.component.css']
 })
-export class PicturePageComponent implements OnInit{
-  photos: any[] = [
-    { source: 'path/to/image1.jpg', alt: 'Description 1', title: 'Title 1' },
-    { source: 'path/to/image2.jpg', alt: 'Description 2', title: 'Title 2' },
-    // ... more images
-  ];
+export class PicturePageComponent implements OnInit {
+  images: any[] | undefined;
   responsiveOptions: any[] | undefined;
+
+  constructor(private photoService: PhotoService) {}
+
+  ngOnInit() {
+    this.photoService.getImages().then((images) => (this.images = images));
+    this.responsiveOptions = [
+        {
+            breakpoint: '1024px',
+            numVisible: 5
+        },
+        {
+            breakpoint: '768px',
+            numVisible: 3
+        },
+        {
+            breakpoint: '560px',
+            numVisible: 1
+        }
+    ];
+}
 }
