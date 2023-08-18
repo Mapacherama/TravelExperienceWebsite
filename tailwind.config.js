@@ -11,6 +11,10 @@ module.exports = {
       colors: {
         'custom-blue': '#325D88',
       },
+      fontFamily: {
+        'header': ['Roboto Condensed', 'sans-serif'],
+        'body': ['Poppins', 'sans-serif'],
+      },
     },
   },
   variants: {
