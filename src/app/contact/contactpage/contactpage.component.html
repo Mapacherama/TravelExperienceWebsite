@@ -1,18 +1,23 @@
-<form (ngSubmit)="onSubmit()">
-  <div class="p-field">
-    <label for="name">Name</label>
-    <input id="name" type="text" pInputText [(ngModel)]="contactForm.name" name="name" required />
+<form (ngSubmit)="onSubmit()" class="bg-white p-6 rounded shadow-md w-full max-w-md mx-auto">
+  <div class="mb-4">
+    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+    <input id="name" type="text" [(ngModel)]="contactForm.name" name="name" required
+           class="mt-1 p-2 w-full border rounded-md">
   </div>
 
-  <div class="p-field">
-    <label for="email">Email</label>
-    <input id="email" type="email" pInputText [(ngModel)]="contactForm.email" name="email" required />
+  <div class="mb-4">
+    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+    <input id="email" type="email" [(ngModel)]="contactForm.email" name="email" required
+           class="mt-1 p-2 w-full border rounded-md">
   </div>
 
-  <div class="p-field">
-    <label for="message">Message</label>
-    <textarea id="message" [(ngModel)]="contactForm.message" name="message" pInputTextarea required></textarea>
+  <div class="mb-4">
+    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+    <textarea id="message" [(ngModel)]="contactForm.message" name="message" required
+              class="mt-1 p-2 w-full border rounded-md h-32"></textarea>
   </div>
 
-  <button pButton type="submit" label="Submit"></button>
+  <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold p-2 rounded">
+    Submit
+  </button>
 </form>
