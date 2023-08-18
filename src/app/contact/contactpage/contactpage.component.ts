@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 
+
 @Component({
   selector: 'app-contactpage',
   templateUrl: './contactpage.component.html',
@@ -8,6 +9,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 
 export class ContactpageComponent implements OnInit {
+
   contactForm: FormGroup | any;
 
   ngOnInit() {
