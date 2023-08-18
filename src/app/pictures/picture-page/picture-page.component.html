@@ -1,15 +1,15 @@
 
 <div class="flex justify-center items-center">
-  <p-galleria [value]="images" [showItemNavigators]="true" [responsiveOptions]="responsiveOptions" [circular]="true"  [numVisible]="5" [containerStyle]="{ 'max-width': '920px' }">
-      <ng-template pTemplate="item" let-item>
-          <img [src]="item.source" style="width: 100%; display: block;" />
-      </ng-template>
-      <ng-template pTemplate="thumbnail" let-item>
-          <div class="grid grid-nogutter justify-content-center">
-              <img [src]="item.source" style="display: block;" />
-          </div>
-      </ng-template>
-  </p-galleria>
+  <p-galleria [(value)]="images" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '640px' }" [numVisible]="5">
+    <ng-template pTemplate="item" let-item>
+        <img [src]="item.source" style="width: 50%;" />
+    </ng-template>
+    <ng-template pTemplate="thumbnail" let-item>
+        <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.source" style="width: 50%;"/>
+        </div>
+    </ng-template>
+</p-galleria>
 </div>
 
 

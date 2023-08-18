@@ -1,31 +1,46 @@
 <div class="flex flex-col min-h-screen">
-
   <!-- Main content -->
   <div class="flex-grow">
-
     <!-- Hero Section -->
     <section class="bg-gray-200 text-center py-20">
       <h2 class="text-4xl font-bold mb-4">Explore the World with Me!</h2>
-      <p class="text-xl mb-8">Join me on my journey and discover amazing places.</p>
-      <div class="mx-auto w-3/4 lg:w-1/6">
-      <p-galleria [value]="images" [showIndicators]="true" [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '640px' }">
-        <ng-template pTemplate="item" let-item>
-            <img [src]="item.source" style="width: 100%; display: block;" />
-        </ng-template>
-    </p-galleria>
-  </div>
-      <a href="/blog" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">My Experiences</a>
+      <p class="text-xl mb-4">
+        Join me on my journey and discover amazing places.
+      </p>
+      <div class="mx-auto w-1/2 lg:w-1/6 mb-6">
+        <p-galleria
+          [(value)]="images"
+          [numVisible]="5"
+          [circular]="true"
+          [showItemNavigators]="true"
+          [showThumbnails]="false"
+          [responsiveOptions]="responsiveOptions"
+          [containerStyle]="{ 'max-width': '768px' }"
+        >
+          <ng-template pTemplate="item" let-item>
+            <img [src]="item.source" style="width: 100%; display: block" />
+          </ng-template>
+        </p-galleria>
+      </div>
+      <a
+        href="/blog"
+        class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+        >My Experiences</a
+      >
     </section>
 
     <!-- About Section -->
     <section class="container mx-auto my-20 px-4">
       <h3 class="text-3xl font-bold mb-6">About</h3>
       <p class="text-lg mb-6">
-        I'm a passionate traveler who loves to explore new places, meet new people, and share my experiences with the world. The blog is a collection of my adventures, tips, and stories from the road.
+        I'm a passionate traveler who loves to explore new places, meet new
+        people, and share my experiences with the world. The blog is a
+        collection of my adventures, tips, and stories from the road.
       </p>
-      <a href="/mystory" class="text-blue-600 hover:underline">Learn more about me</a>
+      <a href="/mystory" class="text-blue-600 hover:underline"
+        >Learn more about me</a
+      >
     </section>
-
   </div>
 
   <!-- Footer -->
@@ -34,5 +49,4 @@
       <p>&copy; 2023 Travel Experience. All rights reserved.</p>
     </div>
   </footer>
-
 </div>
