@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContactpageComponent } from './contactpage/contactpage.component';
 import { SharedModule } from '../shared/shared.module';
 
-
 const routes: Routes = [
   { path: '', component: ContactpageComponent }
 ];
