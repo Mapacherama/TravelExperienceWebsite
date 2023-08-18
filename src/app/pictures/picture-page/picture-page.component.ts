@@ -13,7 +13,7 @@ export class PicturePageComponent implements OnInit {
   constructor(private photoService: PhotoService) {}
 
   ngOnInit() {
-    this.photoService.getImages().then((images) => (this.images = images));
+    this.images = this.photoService.getImages();
     this.responsiveOptions = [
         {
             breakpoint: '1024px',
