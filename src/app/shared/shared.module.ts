@@ -6,9 +6,14 @@ import { GalleriaModule } from 'primeng/galleria';
 import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from '../components/footer/footer.component';
+import { HeaderComponent } from '../components/header/header.component';
 // Destination for shared modules
 @NgModule({
-  declarations: [],
+  declarations: [
+    FooterComponent,
+    HeaderComponent,
+  ],
   imports: [
     CommonModule,
     MenubarModule,
@@ -27,6 +32,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ButtonModule,
     ReactiveFormsModule,
     FormsModule,
+    FooterComponent,
+    HeaderComponent
   ]
 })
 
