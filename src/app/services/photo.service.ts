@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+
 export class PhotoService {
 
   constructor() { }
@@ -14,5 +15,20 @@ export class PhotoService {
       { source: '../../assets/images/MzDDFx6PsYJKP8KZl69Hqfe6Rsbu0Ktqig7_m1qPtjI-1537x2048.jpg', alt: 'Description 2', title: 'Title 2' },
       // ... more images
     ];
+  }
+
+  getImagesBySubject(): any{
+    return {
+      'Subject 1': [
+        { source: 'path-to-image1.jpg', alt: 'Description 1' },
+        { source: 'path-to-image2.jpg', alt: 'Description 2' },
+        // ... more images for Subject 1
+      ],
+      'Subject 2': [
+        { source: 'path-to-image3.jpg', alt: 'Description 3' },
+        // ... more images for Subject 2
+      ],
+      // ... more subjects
+    };
   }
 }
