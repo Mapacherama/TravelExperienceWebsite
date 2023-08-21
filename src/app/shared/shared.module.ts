@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MenubarModule } from 'primeng/menubar';
 import { CardModule } from 'primeng/card';
 import { GalleriaModule } from 'primeng/galleria';
+import { CarouselModule } from 'primeng/carousel';
 import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -19,6 +20,7 @@ import { HeaderComponent } from '../components/header/header.component';
     MenubarModule,
     CardModule,
     GalleriaModule,
+    CarouselModule,
     InputTextModule,
     ButtonModule,
     ReactiveFormsModule,
@@ -28,6 +30,7 @@ import { HeaderComponent } from '../components/header/header.component';
     MenubarModule,
     CardModule,
     GalleriaModule,
+    CarouselModule,
     InputTextModule,
     ButtonModule,
     ReactiveFormsModule,

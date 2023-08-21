@@ -1,15 +1,18 @@
-
-<div class="flex justify-center items-center">
-  <p-galleria [(value)]="images" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '640px' }" [numVisible]="5">
-    <ng-template pTemplate="item" let-item>
-        <img [src]="item.source" style="width: 50%;" />
-    </ng-template>
-    <ng-template pTemplate="thumbnail" let-item>
-        <div class="grid grid-nogutter justify-content-center">
-            <img [src]="item.source" style="width: 50%;"/>
+<div class="card">
+  <p-carousel [value]="images.value" [numVisible]="3" [numScroll]="3" [circular]="false" [responsiveOptions]="responsiveOptions">
+    <ng-template let-product pTemplate="item">
+      <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+        <div class="mb-3">
+          <img src="../../../assets/images/{{ product.image }}" [alt]="product.name" class="w-6 shadow-2" />
         </div>
+        <div>
+          <h4 class="mb-1">{{ product.name }}</h4>
+          <div class="car-buttons mt-5">
+            <p-button type="button" styleClass="p-button p-button-rounded mr-2" icon="pi pi-search"></p-button>
+            <p-button type="button" styleClass="p-button-success p-button-rounded mr-2" icon="pi pi-star-fill"></p-button>
+          </div>
+        </div>
+      </div>
     </ng-template>
-</p-galleria>
+  </p-carousel>
 </div>
-
-

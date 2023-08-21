@@ -17,18 +17,25 @@ export class PhotoService {
     ];
   }
 
+  imagesBySubject = {
+    'Brandenburg Gate': [
+      { image: 'brandenburg_gate.jpg', name: 'Brandenburg Gate at Dusk', price: 'Free', inventoryStatus: 'Must See' },
+      { image: 'brandenburg_gate_day.jpg', name: 'Brandenburg Gate Daytime', price: 'Free', inventoryStatus: 'Iconic' },
+      // ... more images for Brandenburg Gate
+    ],
+    'Berlin Wall': [
+      { image: 'berlin_wall.jpg', name: 'Berlin Wall Remnants', price: 'Free', inventoryStatus: 'Historical' },
+      // ... more images for Berlin Wall
+    ],
+    'Museum Island': [
+      { image: 'museum_island.jpg', name: 'Pergamon Museum', price: '20€', inventoryStatus: 'Cultural' },
+      // ... more images for Museum Island
+    ],
+    // ... more subjects
+  };
+
+
   getImagesBySubject(): any{
-    return {
-      'Subject 1': [
-        { source: 'path-to-image1.jpg', alt: 'Description 1' },
-        { source: 'path-to-image2.jpg', alt: 'Description 2' },
-        // ... more images for Subject 1
-      ],
-      'Subject 2': [
-        { source: 'path-to-image3.jpg', alt: 'Description 3' },
-        // ... more images for Subject 2
-      ],
-      // ... more subjects
-    };
+    return this.imagesBySubject;
   }
 }
