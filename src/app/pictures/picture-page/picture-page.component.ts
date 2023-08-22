@@ -7,26 +7,29 @@ import { PhotoService } from 'src/app/services/photo.service';
   styleUrls: ['./picture-page.component.css']
 })
 export class PicturePageComponent implements OnInit {
-  images: any;
+  imagesBySubject: any;
   responsiveOptions: any[] | undefined;
 
   constructor(private photoService: PhotoService) {}
 
   ngOnInit() {
-    this.images = this.photoService.getImagesBySubject();
+    this.imagesBySubject = this.photoService.getImagesBySubject();
     this.responsiveOptions = [
-        {
-            breakpoint: '1024px',
-            numVisible: 5
-        },
-        {
-            breakpoint: '768px',
-            numVisible: 3
-        },
-        {
-            breakpoint: '560px',
-            numVisible: 1
-        }
-    ];
+      {
+          breakpoint: '560px',
+          numVisible: 1,
+          numScroll: 1
+      },
+      {
+          breakpoint: '768px',
+          numVisible: 3,
+          numScroll: 3
+      },
+      {
+          breakpoint: '1024px',
+          numVisible: 5,
+          numScroll: 5
+      }
+  ];
 }
 }

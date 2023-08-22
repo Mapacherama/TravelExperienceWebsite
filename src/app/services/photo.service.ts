@@ -18,22 +18,15 @@ export class PhotoService {
   }
 
   imagesBySubject = {
-    'Brandenburg Gate': [
-      { image: 'brandenburg_gate.jpg', name: 'Brandenburg Gate at Dusk', price: 'Free', inventoryStatus: 'Must See' },
-      { image: 'brandenburg_gate_day.jpg', name: 'Brandenburg Gate Daytime', price: 'Free', inventoryStatus: 'Iconic' },
+    'Berlin Zoo': [
+      { image: 'Elephants_1.jpg', name: 'Elephant in high summer', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Pelicans.jpg', name: 'Big birds strutting about', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Panda_1.jpg', name: 'Seeing this panda was pretty great', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Panda_Eating.jpg', name: 'Panda eating some bamboo', price: '18€', travelType: 'Nature Spot' },
       // ... more images for Brandenburg Gate
     ],
-    'Berlin Wall': [
-      { image: 'berlin_wall.jpg', name: 'Berlin Wall Remnants', price: 'Free', inventoryStatus: 'Historical' },
-      // ... more images for Berlin Wall
-    ],
-    'Museum Island': [
-      { image: 'museum_island.jpg', name: 'Pergamon Museum', price: '20€', inventoryStatus: 'Cultural' },
-      // ... more images for Museum Island
-    ],
     // ... more subjects
-  };
-
+};
 
   getImagesBySubject(): any{
     return this.imagesBySubject;
