@@ -1,6 +1,6 @@
 .image-container {
-  height: 24rem; /* Adjust this value as needed */
-  width: 24rem;
+  height: 20rem; /* Adjust this value as needed */
+  width: 20rem;
   overflow: hidden;
   position: relative;
 }
@@ -15,4 +15,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* This will allow the cards to wrap to the next line if there's not enough space */
+  justify-content: center; /* This will center the cards if there's extra space */
+  gap: 1rem; /* This will add some space between the cards */
 }

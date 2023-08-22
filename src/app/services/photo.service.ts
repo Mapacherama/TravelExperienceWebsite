@@ -25,6 +25,10 @@ export class PhotoService {
       { image: 'Panda_Eating.jpg', name: 'Panda eating some bamboo', price: '18€', travelType: 'Nature Spot' },
       // ... more images for Brandenburg Gate
     ],
+    'Samurai Museum': [
+      { image: 'Red_mask.jpg', name: 'Scary looking mask', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Leaf_Helmet.jpg', name: 'Cool looking design', price: '18€', travelType: 'Nature Spot' },
+    ],
     // ... more subjects
 };
 

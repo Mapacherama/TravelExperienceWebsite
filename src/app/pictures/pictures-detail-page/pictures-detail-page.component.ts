@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { PhotoService } from '../../services/photo.service';
 
 @Component({
@@ -13,7 +13,11 @@ export class PicturesDetailPageComponent implements OnInit {
   images!: any[];
   responsiveOptions: any;
 
-  constructor(private route: ActivatedRoute, private photoService: PhotoService) {}
+  constructor(private route: ActivatedRoute, private router: Router, private photoService: PhotoService) {}
+
+  goBack() {
+    this.router.navigate(['/pictures']); // Replace 'path-to-picture-overview' with the actual path to your picture overview page
+  }
 
   ngOnInit() {
     this.subjectName = this.route.snapshot.paramMap.get('subjectName');
