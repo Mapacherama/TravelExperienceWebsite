@@ -1,6 +1,14 @@
 <div *ngFor="let subject of imagesBySubject | keyvalue">
-  <h3 class="text-center text-4xl mt-2 mb-4">
-    <a [routerLink]="['/pictures', subject.key]">{{ subject.key }}</a>
-  </h3>
-  <!-- ... rest of your code ... -->
+
+  <!-- Display only the first image for each subject as a representative -->
+  <div class="card" (click)="navigateToDetail(subject.key)">
+    <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+      <div class="mb-3 image-container">
+        <img src="../../../assets/images/{{ subject.value[0].image }}" [alt]="subject.value[0].name" class="shadow-2 centered-image rounded-md" />
+        <div>
+          <h4 class="mb-1">{{ subject.key }}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

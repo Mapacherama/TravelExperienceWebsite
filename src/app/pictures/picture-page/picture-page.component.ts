@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { PhotoService } from 'src/app/services/photo.service';
 
 @Component({
@@ -10,7 +11,11 @@ export class PicturePageComponent implements OnInit {
   imagesBySubject: any;
   responsiveOptions: any[] | undefined;
 
-  constructor(private photoService: PhotoService) {}
+  constructor(private photoService: PhotoService, private router: Router) {}
+
+  navigateToDetail(subjectName: string) {
+    this.router.navigate(['/pictures', subjectName]);
+  }
 
   ngOnInit() {
     this.imagesBySubject = this.photoService.getImagesBySubject();

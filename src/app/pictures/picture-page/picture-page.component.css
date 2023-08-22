@@ -1,10 +1,12 @@
 .image-container {
-  height: 48rem; /* Adjust this value as needed */
+  height: 24rem; /* Adjust this value as needed */
+  width: 24rem;
   overflow: hidden;
   position: relative;
 }
 
 .centered-image {
+  cursor: pointer;
   object-fit: cover;
   object-position: center;
   max-height: 100%;
