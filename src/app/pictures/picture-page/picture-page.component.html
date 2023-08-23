@@ -1,6 +1,5 @@
 <div class="cards-container">
   <div *ngFor="let subject of imagesBySubject | keyvalue">
-
     <!-- Display only the first image for each subject as a representative -->
     <div class="card" (click)="navigateToDetail(subject.key)">
       <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
@@ -12,6 +11,5 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>

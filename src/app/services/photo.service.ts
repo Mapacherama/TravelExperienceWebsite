@@ -23,7 +23,6 @@ export class PhotoService {
       { image: 'Pelicans.jpg', name: 'Big birds strutting about', price: '18€', travelType: 'Nature Spot' },
       { image: 'Panda_1.jpg', name: 'Seeing this panda was pretty great', price: '18€', travelType: 'Nature Spot' },
       { image: 'Panda_Eating.jpg', name: 'Panda eating some bamboo', price: '18€', travelType: 'Nature Spot' },
-      // ... more images for Brandenburg Gate
     ],
     'Samurai Museum': [
       { image: 'Red_mask.jpg', name: 'Scary looking mask', price: '18€', travelType: 'Nature Spot' },
@@ -33,6 +32,12 @@ export class PhotoService {
       { image: 'War_Museum_Cover.jpg', name: 'Entrance board towards the war museum', price: 'Free', travelType: 'Cultural' },
       { image: 'German_WW2_Aircraft .jpg', name: 'Airplane used during the Second World War', price: 'Free', travelType: 'Cultural' },
       { image: 'Hindenburg_Statue.jpg', name: 'Replica of the Hindenburg statue that used to be next to the freedom monument', price: 'Free', travelType: 'Cultural' },
+    ],
+    'Mitte': [
+      { image: 'Golden_Dome_Synagogue.jpg', name: 'Golden Dome Synagogue: Majestic Beauty.', price: 'Free', travelType: 'Cultural' },
+      { image: 'Restaurant_Leading_To_Musea.jpg', name: 'Restaurant gateway to diverse museums; dine, then explore artistry.', price: 'Free', travelType: 'Cultural' },
+      { image: 'Old_Postal_Building.jpg', name: 'Historic Mitte postal office: architectural marvel, timeless elegance captured.', price: 'Free', travelType: 'Cultural' },
+      { image: 'Rotes_Rathaus.jpg', name: 'Rotes Rathaus: stunning architecture; starting point for Swastika-era Berlin tour.', price: 'Free', travelType: 'Cultural' },
     ],
     // ... more subjects
 };
