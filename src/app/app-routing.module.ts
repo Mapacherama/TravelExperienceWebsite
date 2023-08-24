@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: 'pictures/:subjectName',
     component: PicturesDetailPageComponent
-  }
+  },
+  { path: 'journal', loadChildren: () => import('./journal/journal.module').then(m => m.JournalModule) },
 ];
 
 @NgModule({

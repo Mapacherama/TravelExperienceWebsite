@@ -29,13 +29,17 @@ export class HeaderComponent {
         routerLink: '/tips'
       },
       {
+        label: 'Future Trips',
+        routerLink: '/journal'
+      },
+      {
         label: 'Pictures',
         routerLink: '/pictures'
       },
       {
         label: 'Contact Me',
         routerLink: '/contact'
-      }
+      },
     ];
   }
 }

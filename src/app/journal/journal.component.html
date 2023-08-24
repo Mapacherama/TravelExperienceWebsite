@@ -1,0 +1,25 @@
+<div class="flex flex-wrap justify-center">
+  <div *ngFor="let entry of entries" class="m-4">
+    <p-card [style]="{width: '360px'}" styleClass="ui-card-shadow">
+      <p-header>
+          <img [src]="entry.image" alt="Journal Image" class="w-full h-auto">
+      </p-header>
+      <div class="p-4">
+          <h4 class="text-xl font-bold mb-2">{{ entry.title }}</h4>
+          <p class="mb-4">{{ entry.content }}</p>
+
+          <!-- To-Do List -->
+          <h5 class="text-lg font-semibold mb-2">Things To Do:</h5>
+          <div class="pl-5">
+            <div *ngFor="let task of entry.thingsToDo" class="mb-2 flex items-center">
+              <input type="checkbox" id="task-{{ task }}" class="form-checkbox h-5 w-5 text-blue-600 mr-2">
+              <label for="task-{{ task }}" class="text-md">{{ task }}</label>
+            </div>
+          </div>
+      </div>
+      <p-footer class="p-4 bg-gray-100">
+          <small class="text-sm">{{ entry.plannedDate | date }}</small>
+      </p-footer>
+    </p-card>
+  </div>
+</div>
