@@ -10,3 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 body, p, span, div {
   font-family: 'Poppins', sans-serif;
 }
+
+.bigger-size {
+  font-size: 2rem !important;
+}
