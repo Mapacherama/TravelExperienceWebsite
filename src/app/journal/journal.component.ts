@@ -35,6 +35,15 @@ export class JournalComponent implements OnInit {
       image: '../../assets/images/Vatican_City.jpg',
       notes: "This itinerary covers a mix of museums, battlefields, and cemeteries, offering a comprehensive understanding of WW1's impact on Ypres and its surroundings."
     },
+    {
+      title: 'Bayern Match Meets Munich: History, Culture, and Modernity Unveiled.',
+      plannedDate: new Date(2023, 10, 14),
+      destination: 'Munich, Germany',
+      content: "I will go to my first Bayern Munchen match and combining it with seeing the city",
+      thingsToDo: ['Visit the Olympic Park', ' BMW Welt and Museum', 'Breakfast at Viktualienmarkt', 'Bayern Munich match to see Kane', 'Alte Pinakothek', "Residenz, the former royal palace of the Wittelsbach monarchs of Bavaria."],
+      image: '../../assets/images/Munich_Church.jpg',
+      notes: "This itinerary covers a mix of museums, battlefields, and cemeteries, offering a comprehensive understanding of WW1's impact on Ypres and its surroundings."
+    },
     // ... more entries
   ];
 
