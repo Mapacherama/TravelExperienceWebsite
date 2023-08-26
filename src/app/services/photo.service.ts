@@ -39,6 +39,13 @@ export class PhotoService {
       { image: 'Old_Postal_Building.jpg', name: 'Historic Mitte postal office: architectural marvel, timeless elegance captured.', price: 'Free', travelType: 'Cultural' },
       { image: 'Rotes_Rathaus.jpg', name: 'Rotes Rathaus: stunning architecture; starting point for Swastika-era Berlin tour.', price: 'Free', travelType: 'Cultural' },
     ],
+    'Run in the Woods': [
+      { image: 'History_Is_Everywhere.jpg', name: 'Even during a random run in the forest I found this interesting piece of history.', price: 'Free', travelType: 'History' },
+      { image: 'History_Is_Everywhere_II.jpg', name: 'The second plaque explaining information about the people killed at the Berlin Wall.', price: 'Free', travelType: 'History' },
+      { image: 'Deer_Information_Board.jpg', name: 'Information board about deers and buck. These boards where everywhere.', price: 'Free', travelType: 'Nature' },
+      { image: 'Logs_Cut_Down.jpg', name: 'Loggers have been putting in the work.', price: 'Free', travelType: 'Nature' },
+      { image: 'Tree_Over_Green_River.jpg', name: "Tree's falls, casting ripples on emerald river's serene canvas.", price: 'Free', travelType: 'Nature' },
+    ],
     // ... more subjects
 };
 
