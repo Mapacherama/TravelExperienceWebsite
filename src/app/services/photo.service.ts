@@ -27,6 +27,8 @@ export class PhotoService {
     'Samurai Museum': [
       { image: 'Red_mask.jpg', name: 'Scary looking mask', price: '18€', travelType: 'Nature Spot' },
       { image: 'Leaf_Helmet.jpg', name: 'Cool looking design', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Holographic_Theater.jpg', name: 'They played these theater plays every 30 minutes', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Different_Types_Of_Masks.jpg', name: 'All kinds of samurai masks', price: '18€', travelType: 'Nature Spot' },
     ],
     'War Museum': [
       { image: 'War_Museum_Cover.jpg', name: 'Entrance board towards the war museum', price: 'Free', travelType: 'Cultural' },
@@ -45,6 +47,7 @@ export class PhotoService {
       { image: 'Deer_Information_Board.jpg', name: 'Information board about deers and buck. These boards where everywhere.', price: 'Free', travelType: 'Nature' },
       { image: 'Logs_Cut_Down.jpg', name: 'Loggers have been putting in the work.', price: 'Free', travelType: 'Nature' },
       { image: 'Tree_Over_Green_River.jpg', name: "Tree's falls, casting ripples on emerald river's serene canvas.", price: 'Free', travelType: 'Nature' },
+      { image: 'Cool_Looking_River.jpg', name: "I was flabbergasted by the beauty of this forest.", price: 'Free', travelType: 'Nature' },
     ],
     // ... more subjects
 };
