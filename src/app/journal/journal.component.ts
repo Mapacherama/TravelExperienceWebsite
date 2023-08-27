@@ -44,6 +44,15 @@ export class JournalComponent implements OnInit {
       image: '../../assets/images/Munich_Church.jpg',
       notes: "This itinerary covers a mix of museums, battlefields, and cemeteries, offering a comprehensive understanding of WW1's impact on Ypres and its surroundings."
     },
+    {
+      title: "Discovering Plitvice: A Journey Through Croatia's Enchanted Waters and Forests",
+      plannedDate: new Date(2023, 10, 14),
+      destination: 'Plitvice National Park, Croatia',
+      content: "Journey through its enchanting waters and lush forests, and embarking on a memorable journey through one of Croatia's most iconic destinations.",
+      thingsToDo: ['Full-Day Exploration of the Upper and Lower Lakes', 'Wildlife and Birdwatching Tour', "Hiking Adventure to the Park's Peaks", 'Photography Expedition', 'Cultural and Historical Tour'],
+      image: '../../assets/images/Platvice_National_Park.jpg',
+      notes: "This itinerary covers a mix of museums, battlefields, and cemeteries, offering a comprehensive understanding of WW1's impact on Ypres and its surroundings."
+    },
     // ... more entries
   ];
 
