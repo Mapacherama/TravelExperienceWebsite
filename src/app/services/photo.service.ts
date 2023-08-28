@@ -49,6 +49,22 @@ export class PhotoService {
       { image: 'Tree_Over_Green_River.jpg', name: "Tree's falls, casting ripples on emerald river's serene canvas.", price: 'Free', travelType: 'Nature' },
       { image: 'Cool_Looking_River.jpg', name: "I was flabbergasted by the beauty of this forest.", price: 'Free', travelType: 'Nature' },
     ],
+    'Eastern Gallery': [
+      { image: 'Famous_Art.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+    ],
+    'Museum Island': [
+      { image: 'Arabian_Carpet.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Berliner_Dom.jpg', name: 'One of the most prominent historical landmarks in the city and is the largest church in Berlin.', price: 'Free', travelType: 'Art' },
+      { image: 'Egyptian_Art.jpg', name: 'Pharaoh Seti I before Osiris, wall painting from the Tomb of Seti I at the Valley of the Kings.', price: 'Free', travelType: 'Art' },
+    ],
+    'Spandau': [
+      { image: 'Memorial_Stone.jpg', name: 'Memorial stone for fallen soldiers.', price: 'Free', travelType: 'Art' },
+      { image: 'House_Wall_Painting.jpg', name: 'Jewish builder studies a picture; a moment of reflection amidst urban canvas.', price: 'Free', travelType: 'Art' },
+      { image: 'Ukraine_And_Equality.jpg', name: "Ukrainian and LGBTQ flags: Germany's vibrant change towards peace and diversity.", price: 'Free', travelType: 'Art' },
+    ],
+    'Thai weekend market': [
+      { image: 'Road_Towards_The_Thai_Market.jpg', name: 'Came accross this Thai Market while walking around', price: 'Free', travelType: 'Food' },
+    ],
     // ... more subjects
 };
 
