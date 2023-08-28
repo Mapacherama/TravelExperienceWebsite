@@ -40,6 +40,7 @@ export class PhotoService {
       { image: 'Restaurant_Leading_To_Musea.jpg', name: 'Restaurant gateway to diverse museums; dine, then explore artistry.', price: 'Free', travelType: 'Cultural' },
       { image: 'Old_Postal_Building.jpg', name: 'Historic Mitte postal office: architectural marvel, timeless elegance captured.', price: 'Free', travelType: 'Cultural' },
       { image: 'Rotes_Rathaus.jpg', name: 'Rotes Rathaus: stunning architecture; starting point for Swastika-era Berlin tour.', price: 'Free', travelType: 'Cultural' },
+      { image: 'St_Matthews_Church.jpg', name: "St. Matthäus-Kirche is a historic neo-Gothic church situated in Berlin's Kulturforum, renowned for its architectural beauty and its significance in the city's religious and cultural landscape.", price: 'Free', travelType: 'Cultural' },
     ],
     'Run in the Woods': [
       { image: 'History_Is_Everywhere.jpg', name: 'Even during a random run in the forest I found this interesting piece of history.', price: 'Free', travelType: 'History' },
@@ -61,11 +62,21 @@ export class PhotoService {
       { image: 'Memorial_Stone.jpg', name: 'Memorial stone for fallen soldiers.', price: 'Free', travelType: 'Art' },
       { image: 'House_Wall_Painting.jpg', name: 'Jewish builder studies a picture; a moment of reflection amidst urban canvas.', price: 'Free', travelType: 'Art' },
       { image: 'Ukraine_And_Equality.jpg', name: "Ukrainian and LGBTQ flags: Germany's vibrant change towards peace and diversity.", price: 'Free', travelType: 'Art' },
+      { image: 'St_Nikolai_Kirche.jpg', name: "St. Nikolai-Kirche: A historic landmark church located in Spandau, Berlin, showcasing Gothic architecture.", price: 'Free', travelType: 'Landmark' },
     ],
     'Thai weekend market': [
       { image: 'Road_Towards_The_Thai_Market.jpg', name: 'Came accross this Thai Market while walking around', price: 'Free', travelType: 'Food' },
     ],
-    // ... more subjects
+    'Topography of Terror': [
+      { image: 'Topography_Of_Terror.jpg', name: "Topography of Terror: Berlin's chilling museum on Nazi atrocities, set at former Gestapo and SS headquarters.", price: 'Free', travelType: 'Food' },
+    ],
+    'Hahneberg': [
+      { image: 'Hahneberg_Information_Board.jpg', name: 'Board providing information about the main attraction.', price: 'Free', travelType: 'Scenic' },
+      { image: 'Hahneberg_Right_Side.jpg', name: 'Hahneberg: A scenic hill in Berlin, offering panoramic views, walking trails, and a rich history.', price: 'Free', travelType: 'Scenic' },
+      { image: 'City_Is_Never_Far.jpg', name: 'The City is never far away in Berlin, beautiful nature is everywhere.', price: 'Free', travelType: 'Scenic' },
+      { image: 'Hahneberg_Side_View.jpg', name: 'On my way running up the mountain.', price: 'Free', travelType: 'Scenic' },
+      { image: 'Natural_Arch.jpg', name: 'Had to crouch underneath the natural arch to get to the top.', price: 'Free', travelType: 'Scenic' },
+    ],
 };
 
   getImagesBySubject(): any{
