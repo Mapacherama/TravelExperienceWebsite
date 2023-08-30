@@ -19,8 +19,20 @@ export class PhotoService {
 
   imagesBySubject = {
     'Berlin Zoo': [
+      { image: 'Berlin_Zoo_Entrance.jpg', name: 'The entrance to the Zoo looked pretty incredible', price: '18€', travelType: 'Nature Spot' },
       { image: 'Elephants_1.jpg', name: 'Elephant in high summer', price: '18€', travelType: 'Nature Spot' },
       { image: 'Pelicans.jpg', name: 'Big birds strutting about', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Penguins.jpg', name: 'Big birds strutting about', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Penguin_Swimming.jpg', name: 'Big birds strutting about', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Squirrel_Monkey.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Lions.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Flamingos.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Buffalos_Eating.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Vulture.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Giraffe.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Monkeys_On_A_Rock.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Monkeys_Eating.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Hairy_Beasts.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
       { image: 'Panda_1.jpg', name: 'Seeing this panda was pretty great', price: '18€', travelType: 'Nature Spot' },
       { image: 'Panda_Eating.jpg', name: 'Panda eating some bamboo', price: '18€', travelType: 'Nature Spot' },
     ],
@@ -51,7 +63,17 @@ export class PhotoService {
       { image: 'Cool_Looking_River.jpg', name: "I was flabbergasted by the beauty of this forest.", price: 'Free', travelType: 'Nature' },
     ],
     'Eastern Gallery': [
+      { image: 'East_Side_Gallery_Cover.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
       { image: 'Famous_Art.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Einstein_Art.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Change_Life.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Change_Life_Left_Text.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Dragon_Art.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Peace_Art.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Save_Earth_Art.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Marrionets_Art.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'German_Flag_Star_Of_David.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
+      { image: 'Hand_Forward_Art.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
     ],
     'Museum Island': [
       { image: 'Arabian_Carpet.jpg', name: 'This is the most famous artwork in the Eastern Gallery', price: 'Free', travelType: 'Art' },
