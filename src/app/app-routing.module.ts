@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PicturesDetailPageComponent } from './pictures/pictures-detail-page/pictures-detail-page.component';
+import { LearningLanguagesComponent } from './tips/learning-languages/learning-languages.component';
 
 // Setting up lazy routing
 const routes: Routes = [

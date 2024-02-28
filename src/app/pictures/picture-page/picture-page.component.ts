@@ -8,7 +8,7 @@ import { PhotoService } from 'src/app/services/photo.service';
   styleUrls: ['./picture-page.component.css']
 })
 export class PicturePageComponent implements OnInit {
-  imagesBySubject: any;
+  imagesBySubject: string[] | undefined;
   responsiveOptions: any[] | undefined;
 
   constructor(private photoService: PhotoService, private router: Router) {}
