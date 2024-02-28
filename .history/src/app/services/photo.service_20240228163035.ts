@@ -27,7 +27,7 @@ export class PhotoService {
       { image: 'Collared_Peccary_Sleeping.jpg', name: 'Sleeping Peccary Peace', price: '18€', travelType: 'Nature Spot' },
       { image: 'Bornean_Bearded_Pig.jpg', name: 'Bornean Pigs Leisure', price: '18€', travelType: 'Nature Spot' },
       { image: 'Penguin_Swimming.jpg', name: 'Big birds strutting about', price: '18€', travelType: 'Nature Spot' },
-      { image: 'Squirrel_Monkey.jpg', name: 'Squirrel Monkeys Chatter', price: '18€', travelType: 'Nature Spot' },
+      { image: 'Squirrel_Monkey.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
       { image: 'Lions.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
       { image: 'Flamingos.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
       { image: 'Buffalos_Eating.jpg', name: 'The squirrel Monkey is highly vocal and have around 25-30 different types of call.', price: '18€', travelType: 'Nature Spot' },
