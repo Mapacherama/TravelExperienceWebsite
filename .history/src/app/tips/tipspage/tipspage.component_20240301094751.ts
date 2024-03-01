@@ -10,7 +10,7 @@ export class TipspageComponent {
   constructor(private router: Router) { }
 
   navigateToSettingUpItineraries() {
-    this.router.navigate(['/tips/setting-up-itineraries']);
+    this.router.navigate(['/some-path']);
   }
 
   navigateToLearningLanguages() {

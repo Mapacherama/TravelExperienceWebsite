@@ -20,8 +20,7 @@ const routes: Routes = [
   declarations: [
     LearningLanguagesComponent,
     EatingHealthyComponent,
-    WorkingOutWhileAbroadComponent,
-    SettingUpItinerariesComponent
+    WorkingOutWhileAbroadComponent
   ]
 })
 export class TipsRoutingModule { }

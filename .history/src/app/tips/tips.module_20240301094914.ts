@@ -21,7 +21,6 @@ const routes: Routes = [
     LearningLanguagesComponent,
     EatingHealthyComponent,
     WorkingOutWhileAbroadComponent,
-    SettingUpItinerariesComponent
-  ]
+    SettingUpItinerariesComponent,
 })
 export class TipsRoutingModule { }
