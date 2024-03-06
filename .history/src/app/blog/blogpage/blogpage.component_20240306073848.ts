@@ -8,8 +8,8 @@ import { Router } from '@angular/router';
 })
 export class BlogpageComponent {
   constructor(private router: Router) { }
-  navigateToBrandenBurgerTor() {
-    this.router.navigate(['/blog/brandenburg-gate']);
-    console.log('Navigating to Brandenburg Gate');
+  navigateToWorkingOutWhileAbroad() {
+    this.router.navigate(['/tips/working-out-while-abroad']);
+    console.log('Navigating to working out while abroad');
   }
 }
