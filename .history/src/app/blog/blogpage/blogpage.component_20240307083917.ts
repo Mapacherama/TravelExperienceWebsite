@@ -19,7 +19,4 @@ export class BlogpageComponent {
   navigateToSauerkrautChitchat() {
     this.router.navigate(['/blog/sauerkraut-chitchat']);
   }
-  navigateToJourneyToJapan() {
-    this.router.navigate(['/blog/journey-to-japan']);
-  }
 }
