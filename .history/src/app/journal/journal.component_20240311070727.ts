@@ -10,7 +10,7 @@ export class JournalComponent implements OnInit {
   entries: JournalEntry[] = [
     {
       title: 'My Upcoming Trip to Paris',
-      plannedDate: new Date(2024, 5, 15),
+      plannedDate: new Date(2026, 5, 15),
       destination: 'Paris, France',
       content: "I'm so excited about this trip...",
       thingsToDo: ['Visit the Eiffel Tower', 'Explore the Louvre', 'Walk along the Seine'],
@@ -19,7 +19,7 @@ export class JournalComponent implements OnInit {
     },
     {
       title: 'History Trip to Ypres',
-      plannedDate: new Date(2024, 6, 14),
+      plannedDate: new Date(2024, 10, 14),
       destination: 'Ypres, Belgium',
       content: "Three days to see all about WW1 in Belguim",
       thingsToDo: ['In Flanders Fields Museum', 'Ypres Ramparts', 'Hill 60', 'Essex Farm Cemetery and Dressing Station'],
@@ -28,7 +28,7 @@ export class JournalComponent implements OnInit {
     },
     {
       title: 'The essence of Rome: A 5-Day Dive into Antiquity, Culture, and Culinary Delights',
-      plannedDate: new Date(2024, 10, 14),
+      plannedDate: new Date(2024, 5, 14),
       destination: 'Rome & Vatican City, Italy',
       content: "I will visit iconic sites like the Colosseum, Roman Forum, Pantheon, Vatican City.",
       thingsToDo: ['Colosseum', 'Roman Forum', 'Pantheon', 'Trevi Fountain', 'Sistine Chapel', "St. Peter's Basilica"],
@@ -37,7 +37,7 @@ export class JournalComponent implements OnInit {
     },
     {
       title: 'Bayern Match Meets Munich: History, Culture, and Modernity Unveiled.',
-      plannedDate: new Date(2025, 4, 14),
+      plannedDate: new Date(2024, 6, 14),
       destination: 'Munich, Germany',
       content: "I will go to my first Bayern Munchen match and combining it with seeing the city",
       thingsToDo: ['Visit the Olympic Park', ' BMW Welt and Museum', 'Breakfast at Viktualienmarkt', 'Bayern Munich match to see Kane', 'Alte Pinakothek', "Residenz, the former royal palace of the Wittelsbach monarchs of Bavaria."],
@@ -46,7 +46,7 @@ export class JournalComponent implements OnInit {
     },
     {
       title: "Discovering Plitvice: A Journey Through Croatia's Enchanted Waters and Forests",
-      plannedDate: new Date(2025, 8, 14),
+      plannedDate: new Date(2023, 10, 14),
       destination: 'Plitvice National Park, Croatia',
       content: "Journey through its enchanting waters and lush forests, and embarking on a memorable journey through one of Croatia's most iconic destinations.",
       thingsToDo: ['Full-Day Exploration of the Upper and Lower Lakes', 'Wildlife and Birdwatching Tour', "Hiking Adventure to the Park's Peaks", 'Photography Expedition', 'Cultural and Historical Tour'],

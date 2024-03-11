@@ -10,7 +10,7 @@ export class JournalComponent implements OnInit {
   entries: JournalEntry[] = [
     {
       title: 'My Upcoming Trip to Paris',
-      plannedDate: new Date(2024, 5, 15),
+      plannedDate: new Date(2026, 5, 15),
       destination: 'Paris, France',
       content: "I'm so excited about this trip...",
       thingsToDo: ['Visit the Eiffel Tower', 'Explore the Louvre', 'Walk along the Seine'],
@@ -19,7 +19,7 @@ export class JournalComponent implements OnInit {
     },
     {
       title: 'History Trip to Ypres',
-      plannedDate: new Date(2024, 6, 14),
+      plannedDate: new Date(2024, 5, 14),
       destination: 'Ypres, Belgium',
       content: "Three days to see all about WW1 in Belguim",
       thingsToDo: ['In Flanders Fields Museum', 'Ypres Ramparts', 'Hill 60', 'Essex Farm Cemetery and Dressing Station'],

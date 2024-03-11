@@ -19,7 +19,7 @@ export class JournalComponent implements OnInit {
     },
     {
       title: 'History Trip to Ypres',
-      plannedDate: new Date(2024, 6, 14),
+      plannedDate: new Date(2024, 8, 14),
       destination: 'Ypres, Belgium',
       content: "Three days to see all about WW1 in Belguim",
       thingsToDo: ['In Flanders Fields Museum', 'Ypres Ramparts', 'Hill 60', 'Essex Farm Cemetery and Dressing Station'],
