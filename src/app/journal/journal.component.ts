@@ -28,7 +28,7 @@ export class JournalComponent implements OnInit {
     },
     {
       title: 'The essence of Rome: A 5-Day Dive into Antiquity, Culture, and Culinary Delights',
-      plannedDate: new Date(2024, 10, 14),
+      plannedDate: new Date(2024, 4, 29),
       destination: 'Rome & Vatican City, Italy',
       content: "I will visit iconic sites like the Colosseum, Roman Forum, Pantheon, Vatican City.",
       thingsToDo: ['Colosseum', 'Roman Forum', 'Pantheon', 'Trevi Fountain', 'Sistine Chapel', "St. Peter's Basilica"],
