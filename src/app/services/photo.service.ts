@@ -17,7 +17,7 @@ export class PhotoService {
     ];
   }
 
-  imagesBySubject = {
+  imagesBySubject:any = {
     'Berlin Zoo': [
       { image: 'Berlin_Zoo_Entrance.jpg', name: 'The entrance to the Zoo looked pretty incredible', price: '18€', travelType: 'Nature Spot' },
       { image: 'Elephants_1.jpg', name: 'Elephant in high summer', price: '18€', travelType: 'Nature Spot' },
